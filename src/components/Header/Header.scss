@@ -1,0 +1,16 @@
+.right {
+    gap: 30px;
+  .search {
+    display: flex;
+    background: #f4eded4f;
+    border-radius: 4px;
+    padding-left: 5px;
+    .iconContainer {
+      margin: auto 0px;
+      .searchIcon {
+        height: 20px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

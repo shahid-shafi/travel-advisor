@@ -1,0 +1,24 @@
+.paper{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.mapContainer{
+    height: 85vh;
+    width: 100%;
+}
+
+.markerContainer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.markerContainer:hover{
+    z-index: 2;
+}
+.pointer{
+    cursor: pointer;
+}
