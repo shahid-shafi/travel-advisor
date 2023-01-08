@@ -19,7 +19,6 @@ const Map = ({ coordinates, setBounds, setCoordinates, places, setChildClicked }
         bootstrapURLKeys={{ key: process.env.REACT_APP_JS_MAP_API_KEY }}
         defaultCenter={coordinates}
         defaultZoom={11}
-        // yesIWantToUseGoogleMapApiInternals
         margin={[50, 50, 50, 50]}
         onChange={(e) => {
 
