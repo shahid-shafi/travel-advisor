@@ -4,11 +4,14 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    font-size: small;
+    overflow: hidden;
 }
 
 .mapContainer{
     height: 85vh;
     width: 100%;
+    background: #999;
 }
 
 .markerContainer{
@@ -21,4 +24,7 @@
 }
 .pointer{
     cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin: 10px;
 }
