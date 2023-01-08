@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Card, CardMedia, CardContent, CardActions, Chip, Rating } from '@mui/material'
+import { Box, Typography, Card, CardMedia, CardContent, CardActions, Chip, Rating } from '@mui/material'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import PhoneIcon from '@mui/icons-material/Phone';
 import './Card.scss';
